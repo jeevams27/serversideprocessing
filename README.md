@@ -39,6 +39,7 @@ Add mathapp to installed apps in setting.py and add necessary changes.
 Publish the website in the given URL: http://jeeva.student.saveetha.in/
 
 ## PROGRAM :
+```
 
 # Area.html:
 <!DOCTYPE html>
@@ -122,7 +123,7 @@ urlpatterns = [
     path('areaofrectangle/',views.areacalculation,name="areaofrectangle"),
     path("",views.areacalculation,name="areaofrectangleroot")
 ]
-
+```
 ## OUTPUT:
 ![](./output.jpg)
 
